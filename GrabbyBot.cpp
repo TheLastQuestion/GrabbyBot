@@ -117,7 +117,7 @@ int rcCarControl(String command)
     return 1;
   }
   
-  if(command.substring(3,7) == "RELEASE")
+  if(command.substring(3,10) == "RELEASE")
   {
     pos = 1;
     myservo.write(pos);
